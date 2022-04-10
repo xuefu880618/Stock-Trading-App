@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userMainpage"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="404dp"
+        android:layout_height="724dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="124dp"
+                android:text="Log Out"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/adminAddcloseday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/adminAddcloseday"
+
+                />
+
+            <Button
+                android:id="@+id/USER_MAINPAGE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="68dp"
+                android:text="Stock Market"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/adminAddcloseday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/adminAddcloseday" />
+
+            <Button
+                android:id="@+id/Transaction"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="172dp"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/black"
+                android:text="View Transaction History"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/adminAddcloseday"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/adminAddcloseday" />
+
+            <Button
+                android:id="@+id/Buy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/black"
+                android:text="Buy And Sell"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/adminAddcloseday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/adminAddcloseday" />
+
+            <Button
+                android:id="@+id/adminAddcloseday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="60dp"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/black"
+                android:text="Deposit and Withdraw Your Cash"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="387dp"
+                android:layout_height="66dp"
+                android:layout_marginBottom="612dp"
+                android:gravity="center|bottom"
+                android:text="User Profolio"
+                android:textSize="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.058"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/yellow"/>
+
+            <ListView
+                android:id="@+id/userlistview"
+                android:layout_width="297dp"
+                android:layout_height="199dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/Transaction"
+                app:layout_constraintEnd_toEndOf="@+id/Transaction"
+                app:layout_constraintHorizontal_bias="0.549"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView8"
+                app:layout_constraintVertical_bias="0.594"
+                />
+
+            <TextView
+                android:id="@+id/cash_amount"
+                android:layout_width="187dp"
+                android:layout_height="57dp"
+                android:text="cash_amount"
+                android:gravity="center|bottom"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/userlistview"
+                app:layout_constraintHorizontal_bias="0.482"
+                app:layout_constraintStart_toStartOf="@+id/userlistview"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
+                app:layout_constraintVertical_bias="0.489"
+                android:textColor="@color/yellow"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

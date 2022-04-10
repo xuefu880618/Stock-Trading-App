@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:id="@+id/tablerow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/stock_symbol"
+            android:layout_width="422dp"
+            android:layout_height="54dp"
+            android:layout_weight="2"
+            android:height="40sp"
+            android:gravity="center"
+            android:text="stock_symbol"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/cur_price"
+            android:layout_width="422dp"
+            android:layout_height="54dp"
+            android:layout_weight="2"
+            android:height="40sp"
+            android:gravity="center"
+            android:text="stock_symbol"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow1"
+        android:layout_width="397dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="238dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:height="40sp"
+            android:gravity="center"
+            android:text="company"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/low_price"
+            android:layout_width="189dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:height="20sp"
+            android:gravity="center"
+            android:text="low_price"
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/high_price"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:height="20sp"
+            android:gravity="center"
+            android:text="high_price"
+            android:textColor="@color/yellow" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow2"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp">
+
+        <TextView
+            android:id="@+id/open_price"
+            android:layout_width="116dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:height="20sp"
+            android:gravity="center"
+            android:text="open_price"
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/cap"
+            android:layout_width="411dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:height="20sp"
+            android:gravity="center"
+            android:text="cap"
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/volume"
+            android:layout_width="386dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:height="20sp"
+            android:gravity="center"
+            android:text="volume"
+            android:textColor="@color/yellow" />
+    </TableRow>
+
+</TableLayout>

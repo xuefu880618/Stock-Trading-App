@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stock_trade_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stock_Trade_App"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".limitorderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".limitorderview"
+            android:exported="false" />
+        <activity
+            android:name=".openhour"
+            android:exported="false" />
+        <activity
+            android:name=".addHoliday"
+            android:exported="false" />
+        <activity
+            android:name=".addStock"
+            android:exported="false" />
+        <activity
+            android:name=".UserpropertyAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".history_transaction"
+            android:exported="false" />
+        <activity
+            android:name=".BuyandSell"
+            android:exported="false" />
+        <activity
+            android:name=".Deposit_Withdraw"
+            android:exported="false" />
+        <activity
+            android:name=".StockAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Stockmarket"
+            android:exported="false" />
+        <activity
+            android:name=".adminMainpage"
+            android:exported="false" />
+        <activity android:name=".Register" />
+        <activity android:name=".userMainpage" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

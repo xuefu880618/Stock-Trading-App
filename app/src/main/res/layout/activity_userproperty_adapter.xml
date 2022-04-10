@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserpropertyAdapter">
+    <TableRow
+        android:id="@+id/tablerow3"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp">
+    <TextView
+        android:id="@+id/share1"
+        android:layout_width="217dp"
+        android:layout_height="57dp"
+        android:layout_weight="1"
+        android:height="40sp"
+        android:gravity="center"
+        android:text="stock_symbol"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="0dp"
+        />
+
+    <TextView
+        android:id="@+id/stock_symbol2"
+        android:layout_width="203dp"
+        android:layout_height="57dp"
+        android:layout_weight="1"
+        android:height="40sp"
+        android:gravity="center"
+        android:text="stock_symbol"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintStart_toEndOf="@+id/share1"
+        tools:layout_editor_absoluteY="16dp" />
+</TableRow>
+</androidx.constraintlayout.widget.ConstraintLayout>

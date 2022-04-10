@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history_transaction"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <Button
+                android:id="@+id/USER_MAINPAGE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="124dp"
+                android:backgroundTint="@color/yellow"
+                android:text="USER MAINPAGE"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/adminAddcloseday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/adminAddcloseday" />
+
+            <Button
+                android:id="@+id/Buy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="36dp"
+                android:backgroundTint="@color/yellow"
+                android:text="Buy And Sell"
+                app:layout_constraintBottom_toTopOf="@+id/adminAddcloseday"
+                app:layout_constraintEnd_toEndOf="@+id/adminAddcloseday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/adminAddcloseday" />
+
+            <Button
+                android:id="@+id/adminAddcloseday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:text="Deposit and Withdraw Your Cash"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:backgroundTint="@color/yellow"/>
+
+            <ListView
+                android:id="@+id/historylistview"
+                android:layout_width="363dp"
+                android:layout_height="357dp"
+                android:layout_marginEnd="16dp"
+
+                android:layout_marginBottom="152dp"
+                android:scrollX="1px"
+                android:scrollY="1px"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarSize="20dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/Buy"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stock_Trade_App</string>
+    <string name="stocksymbol">Type Stock Symbol</string>
+    <string name="sharenumber">Type share number</string>
+    <string name="limitorder">Type Limit Order</string>
+
+
+</resources>

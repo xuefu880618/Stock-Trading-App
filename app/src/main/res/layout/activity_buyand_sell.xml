@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyandSell"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="211dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="4dp"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="date"
+                android:backgroundTint="@color/yellow"
+                android:textColorHint="@color/yellow"
+                android:textColor="@color/yellow"
+                android:hint="Type Date"
+                app:layout_constraintEnd_toEndOf="@+id/limitorder"
+                app:layout_constraintStart_toStartOf="@+id/limitorder"
+                app:layout_constraintTop_toBottomOf="@+id/share" />
+
+            <Button
+                android:id="@+id/viewlimitorder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="132dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="@+id/share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sell"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/black"
+                android:text="View limit order"
+                app:layout_constraintVertical_bias="0.661"
+                />
+
+            <Button
+                android:id="@+id/userMainpage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="144dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/yellow"
+                android:text="User Mainpage"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buy" />
+
+            <EditText
+                android:id="@+id/inputstocksymbol"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/stocksymbol"
+                android:inputType="textShortMessage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/yellow"
+                tools:layout_editor_absoluteY="64dp"
+                android:textColorHint="@color/yellow"/>
+
+            <EditText
+                android:id="@+id/share"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/sharenumber"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/yellow"
+                app:layout_constraintTop_toBottomOf="@+id/inputstocksymbol"
+                android:textColorHint="@color/yellow"
+                />
+
+            <EditText
+                android:id="@+id/limitorder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="76dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/yellow"
+
+                android:ems="10"
+                android:hint="@string/limitorder"
+                android:inputType="number"
+
+                android:textColor="@color/yellow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/share"
+                android:textColorHint="@color/yellow"/>
+
+            <Button
+                android:id="@+id/buy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="132dp"
+                android:layout_marginEnd="16dp"
+                android:text="Buy"
+                app:layout_constraintBottom_toBottomOf="@+id/share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:backgroundTint="@color/yellow"
+                app:layout_constraintTop_toBottomOf="@+id/sell"
+                app:layout_constraintVertical_bias="0.54" />
+
+            <Button
+                android:id="@+id/sell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/yellow"
+                android:text="Sell"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buy" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

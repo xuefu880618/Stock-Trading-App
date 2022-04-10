@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.202" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.202" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_add_holiday.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_add_stock.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_admin_mainpage.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_buyand_sell.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_deposit_withdraw.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_history_adapter.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_history_transaction.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_limitorder_adapter.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_limitorderview.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_openhour.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_register.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_stock_adapter.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_stockmarket.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_usermainpage.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Stock_Trade_App/app/src/main/res/layout/activity_userproperty_adapter.xml" value="0.13333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
