@@ -1,7 +1,7 @@
 # Stock-Trading-App
 Introduction
 
-● Programming language: Java, Python
+● Programming language: Java, Python, MySQL
 
 ● User interface: Andriod Studio
 
